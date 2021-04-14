@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Inter', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.IntroSection {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: #3793f0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#heading {
+  font-weight: bold;
+  margin-top: 20%;
+  font-size: 500%
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#introtext {
+  margin-top: 10%;
+  line-height: 1.3;
+}
+
+#picimage {
+  margin-top: 3%;
+  width: 60%;
+  border-radius: 50%;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  margin-right: 45%;
+  margin-top: 5%;
+}
+
+.contactItem {
+  margin-left: 9%;
+  transition: 0.2s;
+}
+
+.contactItem:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.contactItem img{
+  width: 2em;
+}
+
+.contactItem:nth-child(2){
+  line-height: 2;
+}
+
+.scroll {
+  margin-top: 12%;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.scroll:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.scroll img{
+  width: 2%;
+}
+
+.scroll h5{
+  font-size: 100%;
+}
+
+.PhilosophySection {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: white;
+  color: #3793f0;
+}
+
+#philHeader {
+  font-weight: bold;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 500%;
+}
+
+#philSubHeader {
+  font-weight: bold;
+  text-align: center;
+}
+
+.treenode {
+  border-radius: 50%;
+  border: none;
+  width: 10em;
+  height: 10em;
+  background-color: #3793f0;
+  color: white;
+  box-shadow: 5px 5px grey;
+  word-break: break-all;
+}
+
+.rootnode {
+  margin-top: 4vh;
+}
+
+.leveltwonode, .levelthreenode1, .levelthreenode2{
+  margin-top: 2vh;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.nodebox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.levelonebox {
+  display: flex;
+  justify-content: center;
+}
+.leveltwobox, .levelthreebox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.EducationSection {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: #3793f0;
 }

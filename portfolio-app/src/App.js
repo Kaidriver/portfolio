@@ -1,13 +1,18 @@
 import logo from './logo.svg';
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
+import Introduction from './components/IntroductionComponents/introduction.js';
+import MyPhilosophy from './components/PhilosophyComponents/MyPhilosophy.js';
+import Education from "./components/EducationComponents/education.js";
+import './App.css';
+
 function App() {
   return (
-    <Container>
-      <Button variant="primary">Primary</Button>
-    </Container>
+    <div>
+      <Introduction/>
+      <MyPhilosophy/>
+      <Education/>
+    </div>
   );
 }
 
