@@ -1,9 +1,12 @@
 import React from "react";
 import scroll from "./scroll.png";
+import scrollblue from "./scrollblue.png";
 import {Link} from "react-scroll";
 
-const ScrollDown = props => (
-  <div className = "scroll">
+const ScrollDown = props => {
+
+  let imgsrc = props.id == "section2scroll" ? scrollblue : scroll;
+  return (<div className = "scroll" id = {props.id}>
     <Link
       activeClass="active"
       to={props.location}
@@ -13,9 +16,9 @@ const ScrollDown = props => (
       duration={500}
     >
       <h5>{props.text}</h5>
-      <img src = {scroll}/>
+      <img src = {imgsrc}/>
     </Link>
-  </div>
-)
+  </div>);
+}
 
 export default ScrollDown;

@@ -18,12 +18,12 @@ export default class MyPhilosophy extends React.Component{
             <div className = "levelonebox">
               <TreeNode class = "treenode rootnode" target = "leveltwonode" text = "Self-motivation"/>
             </div>
-            <TextNode class = "leveltwonode" text = "which stems into..."/>
+            <TextNode class = "leveltwonode" text = "and it can go a long way..."/>
             <div className = "leveltwobox">
               <TreeNode class = "treenode leveltwonode" target = "levelthreenode1" text = "Perseverance"/>
               <TreeNode class = "treenode leveltwonode" target = "levelthreenode2" text = "Ambition"/>
             </div>
-            <TextNode class = "levelthreenode1 levelthreenode2" text = "and leads to..."/>
+            <TextNode class = "levelthreenode1 levelthreenode2" text = "to produce many other traits!"/>
             <div className = "levelthreebox">
                 <TreeNode class = "treenode levelthreenode1" text = "Analytical Thinker"/>
                 <TreeNode class = "treenode levelthreenode1" text = "Hard Working"/>
@@ -32,7 +32,7 @@ export default class MyPhilosophy extends React.Component{
                 <TreeNode class = "treenode levelthreenode2" text = "Quick Learner"/>
                 <TreeNode class = "treenode levelthreenode2" text = "Goal Driven"/>
            </div>
-           <ScrollDown text={"Education/Skills"} location={"section3"}/>
+           <ScrollDown text="Education/Skills" location="section3" id = "section2scroll"/>
         </Container>
       </div>
     )

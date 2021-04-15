@@ -74,6 +74,10 @@ body {
   font-size: 100%;
 }
 
+#section2scroll {
+  margin-top: 4%;
+}
+
 .PhilosophySection {
   width: 100vw;
   height: 100vh;
