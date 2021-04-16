@@ -144,4 +144,42 @@ body {
   left: 0;
   overflow: hidden;
   background-color: #3793f0;
+  color: white;
+}
+
+.educationheader {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20%;
+  font-size: 300%
+}
+
+.institutionContainer {
+  text-align: center;
+}
+
+.institutionContainer:nth-child(3) {
+  margin-top: 15%;
+}
+
+.institution img{
+  width: 50%;
+  transition: 0.2s;
+  margin-bottom: 2%;
+}
+
+.institution img:hover{
+  filter: blur(2px) brightness(60%);
+}
+
+.institution img:hover + h3 {
+  opacity: 1;
+}
+
+.institution h3 {
+  position: absolute;
+  bottom: 33%;
+  left: 38%;
+  opacity: 0;
+  transition: 0.2s;
 }
