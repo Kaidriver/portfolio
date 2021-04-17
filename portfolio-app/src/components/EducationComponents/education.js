@@ -15,6 +15,7 @@ import ListRow from "./listrow.js";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+
 export default class Education extends React.Component{
 
   constructor(props) {

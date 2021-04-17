@@ -196,6 +196,7 @@ body {
   display: flex;
   justify-content: flex-start;
   margin-top: 5%;
+  box-shadow: 8px 8px grey;
 }
 
 .listitem {
@@ -226,4 +227,19 @@ body {
 
 .listrow:nth-child(5) .listblock{
   background-color: #fffe7f !important;
+}
+
+.resume {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.resume:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.resume img {
+  width: 8%;
+  margin-right: 1%;
 }

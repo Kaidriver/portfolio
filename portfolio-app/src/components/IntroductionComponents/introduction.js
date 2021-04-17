@@ -7,6 +7,7 @@ import IntroHeading from './introheading.js'
 import PersonalImage from './personalimage.js'
 import ContactInfo from './contactinfo.js'
 import ScrollDown from "./scrolldown.js"
+import Resume from "./resume.js";
 export default class Introduction extends React.Component {
 
   constructor(props) {
@@ -21,6 +22,7 @@ export default class Introduction extends React.Component {
           <Row>
             <Col md = {6}>
               <IntroText/>
+              <Resume/>
             </Col>
             <Col md = {6}>
               <PersonalImage/>
