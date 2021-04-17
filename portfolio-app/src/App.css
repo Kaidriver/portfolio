@@ -158,6 +158,10 @@ body {
   text-align: center;
 }
 
+.institution {
+  position: relative;
+}
+
 .institutionContainer:nth-child(3) {
   margin-top: 15%;
 }
@@ -170,6 +174,7 @@ body {
 
 .institution img:hover{
   filter: blur(2px) brightness(60%);
+  transform: rotate(180deg);
 }
 
 .institution img:hover + h3 {
@@ -182,4 +187,43 @@ body {
   left: 38%;
   opacity: 0;
   transition: 0.2s;
+}
+
+.listrow {
+  background-color: white;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5%;
+}
+
+.listitem {
+  margin-right: 2%;
+  transform: scale(0.8);
+}
+
+.listblock {
+  background-color: #fd807f;
+  width: 10vh;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 120%;
+  margin-right: 2%;
+  color: black;
+}
+
+.listrow:nth-child(3) .listblock{
+  background-color: #febf80 !important;
+}
+
+.listrow:nth-child(4) .listblock{
+  background-color: #ffe080 !important;
+}
+
+.listrow:nth-child(5) .listblock{
+  background-color: #fffe7f !important;
 }

@@ -1,6 +1,17 @@
 import React from "react";
 import EducationHeader from "./educationheader.js";
 import Institution from "./institution.js";
+import java from "./java.png";
+import html from "./html.png";
+import css from "./CSS.png";
+import js from "./JS.png";
+import android from "./android.png";
+import python from "./python.png";
+import processing from "./processing.png"
+import react from "./react.png";
+import node from "./node.png";
+import cpp from "./c++.png";
+import ListRow from "./listrow.js";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -22,6 +33,10 @@ export default class Education extends React.Component{
             </Col>
             <Col md = {6}>
               <EducationHeader text = "Technical Skills"/>
+              <ListRow grade = "S" img = {[java]}/>
+              <ListRow grade = "A" img = {[html, css, js, processing]}/>
+              <ListRow grade = "B" img = {[android, python]}/>
+              <ListRow grade = "C" img = {[react, node, cpp]}/>
             </Col>
           </Row>
         </Container>
