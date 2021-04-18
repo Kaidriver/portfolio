@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Introduction from './components/IntroductionComponents/introduction.js';
 import MyPhilosophy from './components/PhilosophyComponents/MyPhilosophy.js';
 import Education from "./components/EducationComponents/education.js";
+import Projects from "./components/ProjectsComponents/projects.js";
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Introduction/>
       <MyPhilosophy/>
       <Education/>
+      <Projects/>
     </div>
   );
 }

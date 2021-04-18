@@ -1,6 +1,7 @@
 import React from "react";
 import EducationHeader from "./educationheader.js";
 import Institution from "./institution.js";
+import ScrollDown from "../IntroductionComponents/scrolldown.js"
 import java from "./java.png";
 import html from "./html.png";
 import css from "./CSS.png";
@@ -38,6 +39,8 @@ export default class Education extends React.Component{
               <ListRow grade = "A" img = {[html, css, js, processing]}/>
               <ListRow grade = "B" img = {[android, python]}/>
               <ListRow grade = "C" img = {[react, node, cpp]}/>
+
+              <ScrollDown text="My Projects" location="section4" id = "section3scroll"/>
             </Col>
           </Row>
         </Container>

@@ -55,6 +55,26 @@ body {
   line-height: 2;
 }
 
+.resume {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.resume:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.resume img {
+  width: 8%;
+  margin-right: 1%;
+}
+
+.resume a {
+  color: white;
+}
+
 .scroll {
   margin-top: 12%;
   text-align: center;
@@ -67,7 +87,7 @@ body {
 }
 
 .scroll img{
-  width: 2%;
+  width: 20px;
 }
 
 .scroll h5{
@@ -229,17 +249,35 @@ body {
   background-color: #fffe7f !important;
 }
 
-.resume {
-  display: flex;
-  align-items: center;
-  margin-top: 5%;
+#section3scroll {
+  margin-top: 40%;
 }
 
-.resume:hover {
-  cursor: pointer;
-  text-decoration: underline;
+.ProjectsSection {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: white;
+  color: #3793f0;
 }
-.resume img {
-  width: 8%;
-  margin-right: 1%;
+
+#projectsheader {
+  font-weight: bold;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 500%;
+}
+
+.slider {
+  text-align: center;
+  background-color: #3793f0;
+  color: white;
+  padding: 2%;
+}
+
+.slider img {
+  width: 90%;
 }
