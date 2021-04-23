@@ -8,6 +8,7 @@ import ludicrous from "./ludicrous.png";
 import vegetable from "./vegetablegarden.png";
 import covid from "./covid.png";
 import sodoku from "./sodoku.png";
+import musiscan from "./musiscan.jpg";
 
 export default class Projects extends React.Component {
 
@@ -26,7 +27,7 @@ export default class Projects extends React.Component {
               <Slider header = "Web Apps" img = {[covid, sodoku]} links = {["https://kaidriver.github.io/COVID-19-Near-Me/", "https://kaidriver.github.io/SodokuSolver/"]} descriptions = {["A voice-controlled COVID-19 tracker that locates and displays statistics for nearby COVID-19 cases", "Sodoku solver that utilizes back-tracking recursive algorithm"]}/>
             </Col>
             <Col md = {6}>
-
+              <Slider header = "Mobile Apps" img = {[musiscan]} links = {["https://www.youtube.com/watch?v=k4GGHpDMrzU"]} descriptions = {["An app that utilizes a machine learning model to detect music notes taken by phone camera (Winner of the Congressional App Challenge)"]}/>
             </Col>
           </Row>
         </Container>

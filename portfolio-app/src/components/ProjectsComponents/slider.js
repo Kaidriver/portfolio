@@ -11,8 +11,6 @@ export default class Slider extends React.Component{
 
       this.decrement = this.decrement.bind(this);
       this.increment = this.increment.bind(this);
-
-
     }
 
     decrement() {
