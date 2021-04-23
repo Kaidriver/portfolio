@@ -13,15 +13,15 @@ export default class Slider extends React.Component{
       this.increment = this.increment.bind(this);
     }
 
-    decrement() {
+    increment() {
       this.setState((state, props) => ({
         index: (state.index + 1) % props.img.length
       }));
     }
 
-    increment() {
+    decrement() {
       this.setState((state, props) => ({
-        index: Math.abs((state.index - 1) % props.img.length)
+        index: state.index == 0 ? props.img.length - 1 : state.index - 1
       }));
     }
 
